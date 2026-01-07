@@ -53,7 +53,7 @@ export default function Page1({ onNext }: Page1Props) {
 
         <div className="my-6">
           <div className="text-sm font-semibold text-gray-700 mb-2">Tracking Numbers:</div>
-          <div className="text-sm text-gray-600 mb-4">920719023589090001854351?</div>
+          <div className="text-sm text-gray-600 mb-4">920719023589090001854351</div>
 
           <div className="flex gap-1 mb-6">
             <div className="h-2 bg-[#0071ce] w-32"></div>
@@ -69,7 +69,7 @@ export default function Page1({ onNext }: Page1Props) {
 
         <h2 className="text-xl font-semibold text-gray-800 mb-2">Verify Address</h2>
         <p className="text-sm text-gray-600 mb-6">
-          Fill out and reenter your address is eligible for informed Delivery.
+          Fill out and re-enter your address is eligible for informed Delivery.
         </p>
 
         <form onSubmit={handleSubmit} className="space-y-4">
